@@ -33,7 +33,7 @@ export default function Login() {
             Ingresar
           </Button>
           <Link component={RouterLink} to="/register" variant="body2">
-            ¿No tienes una cuenta todavía.? Regístrate
+            ¿No tienes una cuenta todavía en MasterBike? Regístrate
           </Link>
         </Box>
       </Box>
