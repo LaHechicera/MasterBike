@@ -276,7 +276,7 @@ export default function Inventario() {
             variant="standard"
             value={removeAmount}
             onChange={(e) => setRemoveAmount(e.target.value)}
-            inputProps={{ min: 1, max: productToRemove?.stock || 1 }} // Limitar a la cantidad de stocksss
+            inputProps={{ min: 1, max: productToRemove?.stock || 1 }} // Limitar a la cantidad de stocks.
           />
         </DialogContent>
         <DialogActions>
