@@ -13,7 +13,7 @@ import Equipos from './pages/Equipos';
 function App() {
   return (
     <BrowserRouter>
-      {/* Agregamos un menú de navegación */}
+      {/* Agregamos un menu de navegacion */}
       <nav style={{ display: 'flex', gap: '1rem', padding: '1rem', backgroundColor: '#eee' }}>
         <Link to="/">Login</Link>
         <Link to="/register">Registro</Link>
