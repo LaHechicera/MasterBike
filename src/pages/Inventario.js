@@ -86,7 +86,7 @@ export default function Inventario() {
     handleCloseAddDialog();
   };
 
-  // --- Lógica para Eliminar Cantidad de Producto ---
+  // Loica para Eliminar Cantidad de Producto ---
   const handleRemoveProductAmount = () => {
     if (!productToRemove || isNaN(parseInt(removeAmount)) || parseInt(removeAmount) <= 0) {
       alert('Por favor, ingresa una cantidad válida para eliminar.');
